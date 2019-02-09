@@ -1,4 +1,4 @@
-loadDrop <- function() {
-  dd <- drop_read_csv(file.path(db_folder,"data.csv"))
+loadDrop <- function(data, dbFolder) {
+  dd <- drop_read_csv(file.path(dbFolder, data))
   return(dd)
 }
