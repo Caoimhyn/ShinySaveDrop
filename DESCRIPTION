@@ -1,11 +1,13 @@
 Package: ShinySaveDrop
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Easy save your data from a shyni app to dropbox
+Version: 0.0.0.9000
+Authors@R: person("Kevin", "Potard", email = "kevin.poatrd@hotmail.fr", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.5.0)
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    rdrop2,
+    utils
